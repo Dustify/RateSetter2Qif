@@ -12,6 +12,8 @@
             {
                 Console.WriteLine("No path provided!");
                 Console.ReadKey(true);
+
+                return;
             }
 
             new Program(args[0]);
